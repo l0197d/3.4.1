@@ -18,7 +18,7 @@ public class Radio {
     }
 
 
-    // Логика работы выбора станций
+    // Логика работы выбора станцийasdsda
     public int getCurrentWave() {
         return currentWave;
     }
@@ -50,7 +50,7 @@ public class Radio {
         }
         return currentWave;
     }
-//sdfdsf
+//sdfdsfasdsad
 
     public int getMinWave() {
         return minWave;
