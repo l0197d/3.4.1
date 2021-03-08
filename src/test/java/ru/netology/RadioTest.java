@@ -7,12 +7,14 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class RadioTest {
     Radio radio = new Radio(10);
 
+    // hdfsfds
     @Test
     public void setCurrentWave() {
         int expected = 9;
         radio.setCurrentWave(expected);
         assertEquals(expected, radio.getCurrentWave());
     }
+
 
     @Test
     public void setCurrentWaveOutLimit() {
